@@ -1,4 +1,4 @@
-# fortran
+# Fortran
 
 ![Build Status](https://travis-ci.org/cyber-dojo-languages/fortran.svg?branch=master)
 
