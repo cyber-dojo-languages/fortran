@@ -1,3 +1,5 @@
-# fortran 7.3.0
+# fortran
 
-![Build Status](https://travis-ci.org/cyber-dojo-languages/fortran-7.3.0.svg?branch=master)
+![Build Status](https://travis-ci.org/cyber-dojo-languages/fortran.svg?branch=master)
+
+Version=7.3.0
