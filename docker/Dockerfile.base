@@ -1,2 +1,4 @@
-FROM gcc:latest
+FROM alpine:3.12
 LABEL maintainer=jon@jaggersoft.com
+
+RUN apk add --no-cache gc g++ gfortran
