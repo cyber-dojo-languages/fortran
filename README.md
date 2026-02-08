@@ -1,5 +1,6 @@
-[![CircleCI](https://circleci.com/gh/cyber-dojo-languages/fortran.svg?style=svg)](https://circleci.com/gh/cyber-dojo-languages/fortran)
+[![Github Action (master)](https://github.com/cyber-dojo-languages/fortran/actions/workflows/main.yml/badge.svg)](https://github.com/cyber-dojo-languages/fortran/actions)
 
-## image_name="cyberdojofoundation/fortran"
+## display_name="Fortran 15.2.0"
+## image_name="ghcr.io/cyber-dojo-languages/fortran"
 
 ![cyber-dojo.org home page](https://github.com/cyber-dojo/cyber-dojo/blob/master/shared/home_page_snapshot.png)
