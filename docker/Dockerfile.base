@@ -1,4 +1,9 @@
-FROM alpine:3.23.3
+# The floating latest tag, so a rebuild picks up the newest stable alpine and
+# with it the gfortran that alpine packages. It is published as an index
+# holding real amd64 and arm64 layers, so each runner builds from binaries
+# its own kernel can exec.
+FROM alpine:latest
 LABEL maintainer=jon@jaggersoft.com
 
-RUN apk add --no-cache gc g++ gfortran
+COPY install.sh .
+RUN ./install.sh && rm ./install.sh
