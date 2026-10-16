@@ -5,7 +5,7 @@
 
 apk add --no-cache gc g++ gfortran
 
-# Read by check_version.sh, so the gate states the version this image holds
+# Asked of the compiler, so /versions.json states the version this image holds
 # rather than one written down when someone last edited it. -dumpfullversion
 # prints the version alone, where --version prints a sentence around it.
 readonly GFORTRAN_VERSION=$(gfortran -dumpfullversion)
